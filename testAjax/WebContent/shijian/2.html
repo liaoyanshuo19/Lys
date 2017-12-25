@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<!-- 获取焦点 
+	但是这个代码并不能使用,需要修改	
+-->
+    <input type="text" id="int1" value="获得焦点" onfocus="test1()"><input type="text" id="int2" value="失去焦点" onblur="test2()">  
+    <script>  
+        var int1 = document.getElementById('int1');  
+        var int2 = document.getElementById('int2');  
+        function test1(){  
+           	console.log('第一个获得了焦点'); 
+            /* alert("第一个获得了焦点"); */
+        }  
+        function test2(){  
+            console.log("第二个失去了焦点");  
+        }  
+    </script>  
+    
+</body>
+</html>
